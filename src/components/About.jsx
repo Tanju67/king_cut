@@ -22,9 +22,9 @@ function About() {
 
         <hr className="mb-8 text-gray-200" />
 
-        <h2 className="subtitle mb-20">Our Barbers</h2>
-        <div className="mb-20 flex flex-col gap-20 lg:flex-row">
-          <div className="p-10">
+        <h2 className="subtitle mb-10 sm:mb-20">Our Barbers</h2>
+        <div className="flex flex-col gap-20 sm:mb-20 lg:flex-row">
+          <div className="px-10">
             <div className="hover:to-primary-700 bg-secondary-500 relative h-[300px] flex-1 rounded-4xl transition-all duration-300 hover:scale-110 hover:bg-gradient-to-r hover:from-amber-500 sm:h-[400px] lg:h-auto">
               <img
                 className="h-full w-full rotate-8 rounded-4xl object-cover"
@@ -42,7 +42,7 @@ function About() {
             </div>
           </div>
 
-          <div className="p-10">
+          <div className="px-10">
             <div className="hover:to-primary-700 bg-secondary-500 relative h-[300px] flex-1 rounded-4xl transition-all duration-300 hover:scale-110 hover:bg-gradient-to-r hover:from-amber-500 sm:h-[400px] lg:h-auto">
               <img
                 className="h-full w-full rotate-8 rounded-4xl object-cover"

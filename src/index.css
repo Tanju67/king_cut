@@ -25,6 +25,9 @@
 
   --font-primary: "Anton", sans-serif;
   --font-secondary: "Roboto", sans-serif;
+
+  --spacing-48: 12rem; /* p-48 */
+  --spacing-50: 50px;
 }
 html {
   scroll-behavior: smooth;
@@ -66,8 +69,8 @@ html {
 /* HAMBURGER MENU */
 .hamburger {
   cursor: pointer;
-  width: 50px;
-  height: 50px;
+  width: 24px;
+  height: 24px;
   transition: all 0.25s;
   position: fixed;
   top: 50px;
@@ -77,10 +80,10 @@ html {
 .hamburger::before {
   content: "";
   position: absolute;
-  width: 80px;
-  height: 80px;
-  top: -28px;
-  left: -15px;
+  width: 40px;
+  height: 40px;
+  top: -13px;
+  left: -9px;
   background: #ffe99a;
   border-radius: 50%;
   transform: rotate(0);
@@ -92,8 +95,8 @@ html {
 .hamburger-bottom {
   content: "";
   position: absolute;
-  width: 50px;
-  height: 5px;
+  width: 24px;
+  height: 3px;
   top: 0;
   left: 0;
   background: #000;
@@ -102,11 +105,11 @@ html {
 }
 
 .hamburger-middle {
-  transform: translateY(12px);
+  transform: translateY(7px);
 }
 
 .hamburger-bottom {
-  transform: translateY(24px);
+  transform: translateY(14px);
   background: #000;
 }
 

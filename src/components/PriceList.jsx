@@ -6,7 +6,7 @@ function PriceList() {
       <div className="section-padding">
         <h1 className="title">Price List</h1>
         <h4 className="mb-8 font-bold">Starting at $15</h4>
-        <div className="mb-20 flex flex-col gap-20 lg:flex-row">
+        <div className="flex flex-col gap-20 sm:mb-20 lg:flex-row">
           <ul className="font-primary mb-10 flex flex-3 flex-col gap-4 text-lg md:text-xl lg:mb-0 lg:text-2xl">
             <li className="flex items-center justify-between font-bold">
               <span>Haircut</span>

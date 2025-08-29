@@ -70,11 +70,11 @@ export default function SideMenu({ activeSection }) {
           exit="hidden"
           className="bg-primary-900 fixed top-0 left-0 flex h-screen w-full flex-col items-center justify-center gap-20 md:hidden"
         >
-          <nav className="bg-primary-900 flex h-screen flex-col items-center justify-center gap-20">
+          <nav className="bg-primary-900 mt-[-80px] flex h-screen flex-col items-center justify-center gap-10">
             <div className="text-4xl font-bold">
-              <img className="w-[200px]" src={logo} alt="" />
+              <img className="w-[100px]" src={logo} alt="" />
             </div>
-            <ul className="text-primary-100 flex flex-col items-center justify-center gap-6 text-5xl font-bold">
+            <ul className="text-primary-100 flex flex-col items-center justify-center gap-6 text-2xl font-bold">
               <li
                 onClick={() => setHamburger(false)}
                 className={activeSection === "home" ? "text-secondary-500" : ""}
